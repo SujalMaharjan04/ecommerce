@@ -24,6 +24,8 @@ if (!empty($_SESSION['cart'])) {
         $cart_items[] = $row;
     }
 }
+
+
 ?>
 
 <style>
@@ -88,6 +90,8 @@ if (!empty($_SESSION['cart'])) {
 
         <button type="submit" class="btn btn-success w-100 mt-3">Place Order</button>
     </form>
+
+    
 </div>
 
 <?php include 'includes/footer.php'; ?>
